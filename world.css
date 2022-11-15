@@ -1,1 +1,78 @@
-/* Add your own styles */
+img {
+    height: 100px;
+    width: 150px;
+    margin-right: 5%;
+    padding: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -10px;
+    border-radius: 50%;
+    border: 2px solid white;
+   
+}
+
+header {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#country {
+    width: 50%;
+    height: 50%;
+    font-size: 17px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 5px 12px;
+    
+}
+
+#lookup {
+    font-size: 17px;
+    border-radius: 5px;
+    background-color:darkgreen;
+    color: white;
+    padding: 6px 12px;    
+    border-color: white;
+}
+
+#lookupcities {
+    font-size: 17px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 6px 12px;    
+    border-color: white;
+}
+
+#controls {
+    padding-top: 60px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+label {
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: black;
+    color: whitesmoke;
+}

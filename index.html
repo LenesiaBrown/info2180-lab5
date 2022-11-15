@@ -13,20 +13,32 @@
 
 	<body>
 		<header>
+			<img src="worldmap1.jpg" alt="World Map">
 			<h1>World Database Lookup</h1>
 		</header>
 
-		<main>
-			<div id="controls">
-				<label for="country">Country:</label>
-				<input id="country" type="search" name="country" placeholder="Enter country name" />
-				<button id="lookup">Lookup</button>
-			</div>
-			
-			<div id="result">
-				<!-- countries will appear here -->
-			</div>
-		</main>
+		<!-- <form action="./world.php" method="GET"> -->
 
+			<main>
+				<div id="controls">
+					<label for="country">Country:</label>
+					<input id="country" type="search" name="country" placeholder="Enter country name" />
+					<button id="lookup">Lookup</button> 
+					<button id="lookupcities">Lookup Cities</button>
+				</div>
+				
+				<div id="result">
+					<!-- countries will appear here -->
+					<table id="tabless">
+						<tr>
+							<th>Name</th>
+							<th>Continent</th>
+							<th>Independence</th>
+							<th>Head of State</th>
+						  </tr>
+					</table>
+				</div>
+			</main>
+		<!-- </form> -->
 	</body>
 </html>
